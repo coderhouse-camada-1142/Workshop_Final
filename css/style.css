@@ -189,43 +189,47 @@ header {
       /*float: right;*/ }
       header .navbar-default .navbar-nav li a, header .navbar .navbar-nav li a {
         color: white; }
-    header .navbar-default .container-fluid .iconos ul, header .navbar .container-fluid .iconos ul {
-      display: flex; }
-      header .navbar-default .container-fluid .iconos ul li, header .navbar .container-fluid .iconos ul li {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 5px;
-        list-style: none;
-        background-color: white;
-        height: 40px;
-        width: 40px;
-        border-radius: 50%; }
-        @media screen and (max-width: 420px) {
-          header .navbar-default .container-fluid .iconos ul li, header .navbar .container-fluid .iconos ul li {
-            height: 30px;
-            width: 30px; } }
-        header .navbar-default .container-fluid .iconos ul li:hover, header .navbar .container-fluid .iconos ul li:hover {
-          background-color: #05a4e5; }
-          header .navbar-default .container-fluid .iconos ul li:hover a, header .navbar .container-fluid .iconos ul li:hover a {
-            color: white; }
-        header .navbar-default .container-fluid .iconos ul li a, header .navbar .container-fluid .iconos ul li a {
-          font-size: 1.2em; }
+    header .navbar-default .container-fluid, header .navbar .container-fluid {
+      padding-right: 0; }
+      header .navbar-default .container-fluid .iconos ul, header .navbar .container-fluid .iconos ul {
+        display: flex; }
+        header .navbar-default .container-fluid .iconos ul li, header .navbar .container-fluid .iconos ul li {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 5px;
+          list-style: none;
+          background-color: white;
+          height: 40px;
+          width: 40px;
+          border-radius: 50%; }
           @media screen and (max-width: 420px) {
-            header .navbar-default .container-fluid .iconos ul li a, header .navbar .container-fluid .iconos ul li a {
-              font-size: 0.8em; } }
-  header .caratula h1 {
-    text-transform: uppercase;
-    color: white;
-    font-weight: bold;
-    font-size: 100px;
-    padding: 120px 0; }
-    @media screen and (max-width: 768px) {
-      header .caratula h1 {
-        font-size: 80px; } }
-    @media screen and (max-width: 560px) {
-      header .caratula h1 {
-        font-size: 50px; } }
+            header .navbar-default .container-fluid .iconos ul li, header .navbar .container-fluid .iconos ul li {
+              height: 30px;
+              width: 30px; } }
+          header .navbar-default .container-fluid .iconos ul li:hover, header .navbar .container-fluid .iconos ul li:hover {
+            background-color: #05a4e5; }
+            header .navbar-default .container-fluid .iconos ul li:hover a, header .navbar .container-fluid .iconos ul li:hover a {
+              color: white; }
+          header .navbar-default .container-fluid .iconos ul li a, header .navbar .container-fluid .iconos ul li a {
+            font-size: 1.2em; }
+            @media screen and (max-width: 420px) {
+              header .navbar-default .container-fluid .iconos ul li a, header .navbar .container-fluid .iconos ul li a {
+                font-size: 0.8em; } }
+  header .caratula {
+    margin-right: 0; }
+    header .caratula h1 {
+      text-transform: uppercase;
+      color: white;
+      font-weight: bold;
+      font-size: 100px;
+      padding: 120px 0; }
+      @media screen and (max-width: 768px) {
+        header .caratula h1 {
+          font-size: 80px; } }
+      @media screen and (max-width: 560px) {
+        header .caratula h1 {
+          font-size: 50px; } }
 
 .celular {
   padding: 80px 0; }
